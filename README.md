@@ -20,11 +20,19 @@ There were different generations of tractor and combine cabs donated by Case IH.
 +—/vcsu_barnes_controller
 ```
 
+## Arduino Model
+
+The [Arduino Leonardo](https://docs.arduino.cc/hardware/leonardo) model was used for the project because it could be recognized by the computer as a game controller (not all boards have this ability).
+
 ## Assembly
 
-The Adafruit [Proto-Screwshield (Wingshield) R3 kit](https://www.adafruit.com/product/196) was used for making wire connections to the Arduino’s analog and digital inputs. It’s highly recommended.
+The Adafruit [Proto-Screwshield (Wingshield) R3 kit](https://www.adafruit.com/product/196) was used for making wire connections to the Arduino’s analog and digital inputs without having to solder each wire to the board. It’s highly recommended.
 
 ![Adafruit Proto-Screwshild](/photos/wing-shield.jpg)
+
+## Testing
+
+Testing the Arduino input was possible with the [Joystick Show](https://apps.apple.com/ca/app/joystick-show/id515886877?mt=12) app available for macOS. Though, any app capable of reading game controller input would work just as well.
 
 ## Links
 
