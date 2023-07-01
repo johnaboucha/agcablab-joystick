@@ -20,9 +20,23 @@ There were different generations of tractor and combine cabs donated by Case IH.
 +—/vcsu_barnes_controller
 ```
 
+### Optical Encoder
+
+A rotary optical encoder by Honeywell (600128CBL) was mounted to the tractor cab’s steering column and would rotate with the steering wheel.
+
+The sensor data would be captured by the Arduino and passed to the computer as the controller’s horizontal axis.
+
+### Console Input
+
+Buttons and levers on the tractor cab’s console were also employed to send data to the computer.
+
+Buttons would raise or lower the agricultural machinery, like plows and planters. The throttle was usually a potentiometer that would be configured as the controller’s vertical axis.
+
 ## Arduino Model
 
-The [Arduino Leonardo](https://docs.arduino.cc/hardware/leonardo) model was used for the project because it could be recognized by the computer as a game controller (not all boards have this ability).
+The [Arduino Leonardo](https://docs.arduino.cc/hardware/leonardo) model was used for the project.
+
+The Leonardo has built-in USB communication that allows the Micro to appear as a mouse and keyboard when plugged into the computer. And more importantly, it could be configured to act as a video game controller (not all boards have this ability).
 
 ## Assembly
 
