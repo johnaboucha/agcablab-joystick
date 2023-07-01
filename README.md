@@ -24,7 +24,7 @@ There were different generations of tractor and combine cabs donated by Case IH.
 
 The Adafruit [Proto-Screwshield (Wingshield) R3 kit](https://www.adafruit.com/product/196) was used for making wire connections to the Arduino’s analog and digital inputs. It’s highly recommended.
 
-![Adafruit Proto-Screwshild](/photos/wing-shild.jpg)
+![Adafruit Proto-Screwshild](/photos/wing-shield.jpg)
 
 ## Links
 
