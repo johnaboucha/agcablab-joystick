@@ -10,3 +10,27 @@ The AgCab itself was an actual tractor cab donated by Case IH. The steering whee
 ## Configurations
 
 There were different generations of tractor and combine cabs donated by Case IH. A different code base was developed for each instance.
+
+```
+/agcablab-joystick
++—/combine_controller
++—/ethanol_controller
++—/heritage_tractor
++—/rochester_controller
++—/vcsu_barnes_controller
+```
+
+## Assembly
+
+The Adafruit [Proto-Screwshield (Wingshield) R3 kit](https://www.adafruit.com/product/196) was used for making wire connections to the Arduino’s analog and digital inputs. It’s highly recommended.
+
+![Adafruit Proto-Screwshild](/photos/wing-shild.jpg)
+
+## Links
+
+- AgCabLab homepage: https://www.aginspire.org/
+- Repository: https://github.com/johnaboucha/agcablab-joystick
+
+## Licensing
+
+The code in this project is licensed under MIT license.
